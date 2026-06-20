@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mannuh Portfolio</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mannuh</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header class="hero text-center text-white">
+    <div class="container">
+        <h1>Hi, I'm Mannuh</h1>
+        <p>Network Engineer | Cyber Security Enthusiast</p>
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="container my-5">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Network Engineer with interest in networking, cybersecurity, and system administration.
+        I enjoy building secure and efficient network systems.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="bg-light py-5">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="row">
+            <div class="col-md-4">Networking Basics</div>
+            <div class="col-md-4">Cyber Security</div>
+            <div class="col-md-4">HTML & CSS</div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="container my-5">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" class="form-control mb-2" placeholder="Your Name">
+        <input type="email" class="form-control mb-2" placeholder="Your Email">
+        <textarea class="form-control mb-2" placeholder="Message"></textarea>
+        <button class="btn btn-primary">Send</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+    <p>© 2026 Mannuh | Network Engineer Portfolio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

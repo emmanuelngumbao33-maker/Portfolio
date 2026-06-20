@@ -1,0 +1,9 @@
+<header class="hero text-center text-white">
+    <div class="container">
+
+        <img src="images/profile.jpg" alt="Profile Image" class="profile-img">
+
+        <h1>Hi, I'm Mannuh</h1>
+        <p>Network Engineer | Cyber Security Enthusiast</p>
+    </div>
+</header>
